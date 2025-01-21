@@ -1,0 +1,49 @@
+-------------------------------------------------------------------------------
+Test set: com.itsu.itsudefdata.dao.impl.test.UsuarioDAOImplTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.225 s <<< FAILURE! -- in com.itsu.itsudefdata.dao.impl.test.UsuarioDAOImplTest
+com.itsu.itsudefdata.dao.impl.test.UsuarioDAOImplTest.testConsultarExitoso -- Time elapsed: 0.059 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Statement.executeQuery(String)" because "com.itsu.itsudefdata.connection.ConnectionFactory.statement" is null
+	at com.itsu.itsudefdata.connection.ConnectionFactory.ejecutarSQLSelect(ConnectionFactory.java:74)
+	at com.itsu.itsudefdata.dao.impl.UsuarioDAOImpl.consultar(UsuarioDAOImpl.java:97)
+	at com.itsu.itsudefdata.dao.impl.test.UsuarioDAOImplTest.testConsultarExitoso(UsuarioDAOImplTest.java:181)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+com.itsu.itsudefdata.dao.impl.test.UsuarioDAOImplTest.testGuardarExitoso -- Time elapsed: 0.044 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Statement.executeUpdate(String)" because "com.itsu.itsudefdata.connection.ConnectionFactory.statement" is null
+	at com.itsu.itsudefdata.connection.ConnectionFactory.ejecutarSQL(ConnectionFactory.java:63)
+	at com.itsu.itsudefdata.dao.impl.UsuarioDAOImpl.guardar(UsuarioDAOImpl.java:48)
+	at com.itsu.itsudefdata.dao.impl.test.UsuarioDAOImplTest.testGuardarExitoso(UsuarioDAOImplTest.java:54)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+com.itsu.itsudefdata.dao.impl.test.UsuarioDAOImplTest.testGuardarFallido -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Statement.executeUpdate(String)" because "com.itsu.itsudefdata.connection.ConnectionFactory.statement" is null
+	at com.itsu.itsudefdata.connection.ConnectionFactory.ejecutarSQL(ConnectionFactory.java:63)
+	at com.itsu.itsudefdata.dao.impl.UsuarioDAOImpl.guardar(UsuarioDAOImpl.java:48)
+	at com.itsu.itsudefdata.dao.impl.test.UsuarioDAOImplTest.testGuardarFallido(UsuarioDAOImplTest.java:91)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+com.itsu.itsudefdata.dao.impl.test.UsuarioDAOImplTest.testActualizarExitoso -- Time elapsed: 0.031 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Statement.executeUpdate(String)" because "com.itsu.itsudefdata.connection.ConnectionFactory.statement" is null
+	at com.itsu.itsudefdata.connection.ConnectionFactory.ejecutarSQL(ConnectionFactory.java:63)
+	at com.itsu.itsudefdata.dao.impl.UsuarioDAOImpl.actualizar(UsuarioDAOImpl.java:72)
+	at com.itsu.itsudefdata.dao.impl.test.UsuarioDAOImplTest.testActualizarExitoso(UsuarioDAOImplTest.java:137)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+com.itsu.itsudefdata.dao.impl.test.UsuarioDAOImplTest.testEliminarExitoso -- Time elapsed: 0.014 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Statement.executeUpdate(String)" because "com.itsu.itsudefdata.connection.ConnectionFactory.statement" is null
+	at com.itsu.itsudefdata.connection.ConnectionFactory.ejecutarSQL(ConnectionFactory.java:63)
+	at com.itsu.itsudefdata.dao.impl.UsuarioDAOImpl.eliminar(UsuarioDAOImpl.java:82)
+	at com.itsu.itsudefdata.dao.impl.test.UsuarioDAOImplTest.testEliminarExitoso(UsuarioDAOImplTest.java:163)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+

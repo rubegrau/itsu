@@ -1,0 +1,17 @@
+com\itsu\itsudefdata\dao\CarreraDAO.class
+com\itsu\itsudefdata\dao\impl\MateriaDAOimpl.class
+com\itsu\itsudefdata\dao\AñosDAO.class
+com\itsu\itsudefdata\dao\impl\InscripcionDAOImpl.class
+com\itsu\itsudefdata\dao\impl\Mesas_ExamenesDAOImpl.class
+com\itsu\itsudefdata\dao\impl\AñosDAOImpl.class
+com\itsu\itsudefdata\dao\impl\CarreraDAOImpl.class
+com\itsu\itsudefdata\dao\impl\Plan_de_estudiosDAOImpl.class
+com\itsu\itsudefdata\dao\MateriaDAO.class
+com\itsu\itsudefdata\dao\InscripcionDAO.class
+com\itsu\itsudefdata\dao\Plan_de_estudiosDAO.class
+com\itsu\itsudefdata\dao\impl\UsuarioDAOImpl.class
+com\itsu\itsudefdata\dao\UsuarioDAO.class
+com\itsu\itsudefdata\connection\ConnectionFactory.class
+com\itsu\itsudefdata\dao\Mesas_ExamenesDAO.class
+com\itsu\itsudefdata\dao\impl\RolDAOImpl.class
+com\itsu\itsudefdata\dao\RolDAO.class
